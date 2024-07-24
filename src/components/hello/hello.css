@@ -1,0 +1,37 @@
+.hello-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.hello-main__profile-img {
+    text-align: center;
+}
+
+.hello-main__say-hello h1 {
+    font-size: 124px;
+    color: var(--blackPrincipal);
+}
+
+.hello-main__say-hello h2 {
+    font-size: 40px;
+    color: var(--greenPrincipal);
+    font-family: inika;
+}
+
+.hello-main__i-work {
+    margin-top: 70px;
+}
+
+.hello-main__i-work h2 {
+    font-size: 40px;
+    color: var(--blackPrincipal);
+}
+
+.hello-main__i-work h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--greenPrincipal);
+    font-family: inika;
+}
+

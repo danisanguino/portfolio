@@ -1,0 +1,73 @@
+.header-main {
+    position: fixed;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 900px;
+    display: flex;
+    gap: 15px;
+}
+
+.header-main__linkedin {
+    height: 52px;
+    width: 33.3%;
+    background-color: var(--greenPrincipal);
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+    border: none;
+    transition: all ease 0.2s;
+}
+
+.header-main__linkedin:hover {
+    height: 60px;
+    border: none;
+}
+
+.header-main__linkedin-icon {
+    margin: 5px;
+}
+
+
+.header-main__github {
+    height: 52px;
+    width: 33.3%;
+    background-color: var(--blackPrincipal);
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+    border: none;
+    transition: all ease 0.2s;
+}
+
+.header-main__github:hover {
+    height: 60px;
+    border: none;
+}
+
+.header-main__github-icon {
+    margin: 5px;
+}
+
+.header-main__contact {
+    height: 52px;
+    width: 33.3%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+    border: none;
+    transition: all ease 0.2s;
+}
+
+.header-main__contact:hover {
+    height: 60px;
+    border: none;
+}
+
+.header-main__contact p {
+    font-size: 13;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 2px 5px;
+}

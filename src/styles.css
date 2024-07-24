@@ -1,0 +1,15 @@
+@import url('./styles/colors.css');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: inter;
+}
+
+button {
+    cursor: pointer;
+}

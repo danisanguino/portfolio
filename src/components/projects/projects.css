@@ -1,0 +1,14 @@
+.projects-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.projects-main h2 {
+    font-size: 40px;
+    color: var(--blackPrincipal);
+}
+
+.projects-main__project {
+    background-color: rebeccapurple;
+}
