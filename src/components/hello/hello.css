@@ -46,3 +46,9 @@
     color: var(--blackPrincipal);
 }
 
+@media (max-width: 480px) {
+    .hello-main__say-hello h1 {
+        font-size: 60px;
+        color: var(--blackPrincipal);
+    }
+  }
