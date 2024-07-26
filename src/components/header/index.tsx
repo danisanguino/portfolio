@@ -19,12 +19,12 @@ export const Header = () => {
       <main className="header-main">
         <a href="https://www.linkedin.com/in/dani-sanguino/" target="_blank">
           <button className="header-main__linkedin">
-            <img src="./assets/linkedin-icon.svg" className="header-main__linkedin--icon"/>
+            <img src="/assets/linkedin-icon.svg" className="header-main__linkedin--icon"/>
           </button>
         </a>
         <a href="https://github.com/danisanguino" target="_blank">
           <button className="header-main__github">
-            <img src="./assets/github-icon.svg" className="header-main__github--icon"/>
+            <img src="/assets/github-icon.svg" className="header-main__github--icon"/>
           </button>
         </a>
         

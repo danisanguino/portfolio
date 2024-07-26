@@ -10,7 +10,7 @@ export const Projects = () => {
 
   async function callProjects (){
     try {
-      const response = await fetch("projects.json");
+      const response = await fetch("/projects.json");
       const data: IProject[] = await response.json();
       setProjects(data);
       
