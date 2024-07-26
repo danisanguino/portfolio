@@ -1,4 +1,5 @@
 import "./hello.css"
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 export const Hello = () => {
   return (
@@ -13,6 +14,10 @@ export const Hello = () => {
       <div className="hello-main__i-work">
         <h2>I work</h2>
         <h3>HTML | CSS | JavaScript | TypeScript | GIT | React | Node.Js | Express.Js | Mongoose | Prisma | MongoDB | PostgreSQL | Next.Js | Jenkins | Vercel | Figma | Adobe Photoshop | Adobe Illustrator | Adobe Indesign | Adobe Premier</h3>
+      </div>
+      <div className="hello-main__i-work">
+        <h2>My Resume</h2>
+        <a href="public/resumeDaniSang.pdf" target="_blank"><FaCloudDownloadAlt size={40} className="hello-main__i-work--download-icon"/></a>
       </div>
     </main>
   )

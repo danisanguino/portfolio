@@ -1,3 +1,4 @@
+import { Footer } from './components/footer'
 import { Header } from './components/header'
 import { Hello } from './components/hello'
 import { Projects } from './components/projects'
@@ -11,6 +12,7 @@ function App() {
     <Header/>
     <Hello/>
     <Projects/>
+    <Footer/>
       
     </>
   )

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2,
+        "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1721802656/portfolio/dani-sanguino-rick-morty_liazer.jpg" ,
+        "name": "Rick & Morty Chapters App",
+        "description": "la descripcion o para el alt",
+        "url_github":"https://github.com/danisanguino/rickmorty",
+        "url_deploy":"https://rickmorty-drab.vercel.app/"
+    },
+    {
+        "id": 1,
+        "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1721802656/portfolio/dani-sanguino-rick-morty_liazer.jpg" ,
+        "name": "Apollofy Music App",
+        "description": "la descripcion o para el alt",
+        "url_github":"https://github.com/danisanguino/apollofy-app-frontend",
+        "url_deploy":"https://front-end-apollofy.netlify.app/"
+    },
+    {
+        "id": 3,
+        "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1721802656/portfolio/dani-sanguino-rick-morty_liazer.jpg" ,
+        "name": "MovieHub App",
+        "description": "la descripcion o para el alt",
+        "url_github":"https://github.com/danisanguino/movieHub-front-nextjs",
+        "url_deploy":"https://glittering-seahorse-f581bb.netlify.app/"
+    }
+]
