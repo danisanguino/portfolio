@@ -22,7 +22,7 @@
 
 .header-main__linkedin {
     height: 52px;
-    width: 300px;
+    width: 285px;
     background-color: var(--greenPrincipal);
     display: flex;
     align-items: flex-end; 
@@ -43,7 +43,7 @@
 
 .header-main__github {
     height: 52px;
-    width: 300px;
+    width: 285px;
     background-color: var(--blackPrincipal);
     display: flex;
     align-items: flex-end; 
@@ -63,7 +63,7 @@
 
 .header-main__contact {
     height: 52px;
-    width: 300px;
+    width: 285px;
     background-color: black;
     display: flex;
     align-items: flex-end; 
@@ -83,3 +83,21 @@
     color: white;
     margin: 0 0 2px 5px;
 }
+
+@media (max-width: 900px) {
+    body {
+        margin: 0 10px 0 10px;
+    }
+
+    .header-main__linkedin {
+        width: 150px;
+    }
+
+    .header-main__github {
+        width: 150px;
+    }
+
+    .header-main__contact {
+        width: 150px;
+    }
+  }
