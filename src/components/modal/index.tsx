@@ -8,18 +8,16 @@ import { IoLogoWhatsapp } from "react-icons/io";
 interface ModalProps {
     show: boolean;
     onClose: () => void;
-    phoneNumber: string;
-    message: string;
   }
 
 
-  const Modal: React.FC<ModalProps> = ({ show, onClose, phoneNumber, message  }) => {
+  const Modal: React.FC<ModalProps> = ({ show, onClose }) => {
     if (!show) {
       return null;
     }
 
     const handleWp = () => {
-        const url = `https://wa.me/${656588717}?text=${encodeURIComponent("Si quieres escribirme estaré encantado de charlar contigo")}`;
+        const url = `https://wa.me/${656588717}?text=${encodeURIComponent("Si quieres escribirme estaré encantado de charlar contigo / If you want to write to me I will be happy to chat with you.")}`;
         window.open(url, '_blank');
     };
   
