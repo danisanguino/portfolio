@@ -20,12 +20,12 @@ export const Project = (propsProject: Props) => {
         <div className="project-main__buttons">
           <a href={propsProject.url_github} target="_blank">
             <button className="project-main__buttons--button github">
-                <img src="public/assets/github-icon.svg" height="15px"/>
+                <img src="/assets/github-icon.svg" height="15px"/>
             </button>
           </a>
           <a href={propsProject.url_deploy} target="_blank">
             <button className="project-main__buttons--button deploy">
-                <img src="public/assets/deploy-icon.svg"/>
+                <img src="/assets/deploy-icon.svg"/>
             </button>
           </a>
         </div>
