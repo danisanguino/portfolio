@@ -36,7 +36,7 @@
     border: none;
 }
 
-.header-main__linkedin-icon {
+.header-main__linkedin--icon {
     margin: 5px;
 }
 
@@ -57,7 +57,7 @@
     border: none;
 }
 
-.header-main__github-icon {
+.header-main__github--icon {
     margin: 5px;
 }
 
