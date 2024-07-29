@@ -2,27 +2,15 @@ import { useEffect, useState } from 'react';
 import { IProject } from '../../interfaces/projects';
 import { Project } from "./project";
 import "./projects.css";
+import { callProjects } from '../../utils/functions';
 
 
 export const Projects = () => {
 
   const [projects, setProjects] = useState<IProject[]>([]);
 
-  async function callProjects (){
-    try {
-      const response = await fetch("/projects.json");
-      const data: IProject[] = await response.json();
-      setProjects(data);
-      
-      
-    } catch (error) {
-      console.log("Message: " + error);
-    }
-
-  };
-
   useEffect(() => {
-    callProjects();
+    callProjects(setProjects);
   }, [])
   
 

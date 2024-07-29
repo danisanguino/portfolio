@@ -44,7 +44,6 @@
         "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1722245428/portfolio/sanicor_nccyv5.jpg" ,
         "name": "Official Website Sanicor",
         "description": "la descripcion o para el alt",
-        "url_github":"",
         "url_deploy":"https://sanicor.es/"
     },
     {
@@ -52,14 +51,12 @@
         "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1722245428/portfolio/celeris_aou1cw.jpg" ,
         "name": "Official Website Celeris",
         "description": "la descripcion o para el alt",
-        "url_github":"",
         "url_deploy":"https://celeriscentral.com/"
     },{
         "id": 8,
         "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1722245427/portfolio/suministros_geriatricos_h3nc8r.jpg" ,
         "name": "Official Website Suministros Geriátricos",
         "description": "la descripcion o para el alt",
-        "url_github":"",
         "url_deploy":"https://suministrosgeriatricos.net/"
     }
 ]

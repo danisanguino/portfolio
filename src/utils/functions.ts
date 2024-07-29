@@ -2,14 +2,17 @@
 import { IProject } from "../interfaces/projects";
 
 
-export const callProjects = async (): Promise<IProject[]> => {
+export async function callProjects (
+  setProjects: React.Dispatch<React.SetStateAction<IProject[]>>
+){
   try {
-    const response = await fetch("./public/projects.json");
+    const response = await fetch("/projects.json");
     const data: IProject[] = await response.json();
-    return data;
+    setProjects(data);
+    
     
   } catch (error) {
     console.log("Message: " + error);
-    throw error;
   }
+
 };
