@@ -2,6 +2,8 @@
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 60px;
+    padding: 0 5px 0 5px;
+
 }
 
 .hello-main__profile-img {
@@ -11,6 +13,7 @@
 .hello-main__say-hello h1 {
     font-size: 124px;
     color: var(--blackPrincipal);
+    
 }
 
 .hello-main__say-hello h2 {
