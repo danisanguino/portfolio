@@ -32,6 +32,14 @@
         "url_deploy":"https://ecommerce-forniture742.vercel.app/"
     },
     {
+        "id": 9,
+        "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1725818505/portfolio/hangman-game_n0jmxe.jpg" ,
+        "name": "Hangman Game",
+        "description": "la descripcion o para el alt",
+        "url_github":"https://github.com/danisanguino/hanging-game",
+        "url_deploy":"https://hanging-game-kappa.vercel.app/"
+    },
+    {
         "id": 5,
         "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1722244401/portfolio/calendar_cqbhmc.jpg" ,
         "name": "Calendar",
