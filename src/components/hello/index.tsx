@@ -9,7 +9,7 @@ export const Hello = () => {
       </div>
       <div className="hello-main__say-hello">
         <h1>I'm Dani Sanguino</h1>
-        <h2>Full Stack Developer & Graphic Design</h2>
+        <h2>Full Stack Developer & Graphic Designer</h2>
       </div>
       <div className="hello-main__i-work">
         <h2>I work</h2>
