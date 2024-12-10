@@ -6,7 +6,7 @@ type Props = {
   url_imagen:string
   description: string
   url_github?: string
-  url_deploy: string
+  url_deploy?: string
 
 }
 
@@ -25,11 +25,14 @@ export const Project = (propsProject: Props) => {
               </button>
             </a>
           )}
-          <a href={propsProject.url_deploy} target="_blank">
-            <button className="project-main__buttons--button deploy">
-                <img src="/assets/deploy-icon.svg"/>
-            </button>
-          </a>
+
+          { propsProject.url_deploy && (
+            <a href={propsProject.url_deploy} target="_blank">
+              <button className="project-main__buttons--button deploy">
+                  <img src="/assets/deploy-icon.svg"/>
+              </button>
+            </a>
+            )}
         </div>
 
     </main>
