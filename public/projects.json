@@ -1,5 +1,13 @@
 [
     {
+        "id": 12,
+        "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1733832934/portfolio/ai-title-generator_adbdak.jpg" ,
+        "name": "AI Title Generator",
+        "description": "AI Title Generator",
+        "url_github":"https://github.com/danisanguino/Ai-title-generator",
+        "url_deploy":"https://ai-title-generator-sang.netlify.app/"
+    },
+    {
         "id": 1,
         "url_image": "https://res.cloudinary.com/drp3zy62g/image/upload/v1722244401/portfolio/apollofy_fpqsr0.jpg" ,
         "name": "Apollofy Music App",
