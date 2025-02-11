@@ -13,7 +13,7 @@ export const Hello = () => {
       </div>
       <div className="hello-main__i-work">
         <h2>I work</h2>
-        <h3>HTML | CSS | SASS | JavaScript | TypeScript | GIT | React | Node.Js | Express.Js | Mongoose | Prisma | MongoDB | PostgreSQL | Next.Js | Jenkins | Gulp | Vercel | Figma | Adobe Photoshop | Adobe Illustrator | Adobe Indesign | Adobe Premier</h3>
+        <h3>HTML | CSS | SASS | JavaScript | TypeScript | Php |  GIT | React | Node.Js | Express.Js | Mongoose | Prisma | MongoDB | PostgreSQL | Next.Js | Jenkins | Gulp | Vercel | Figma | OpenAI | Firebase | Adobe Photoshop | Adobe Illustrator | Adobe Indesign | Adobe Premier</h3>
       </div>
       <div className="hello-main__i-work">
         <h2>My Resume</h2>
